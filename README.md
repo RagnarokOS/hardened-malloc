@@ -1,7 +1,7 @@
 Hardened_malloc
 ===============
 
-[GrapheneOS](https://github.com/GrapheneOS/hardened_malloc)'s hardened memory allocator.
+[GrapheneOS](https://github.com/GrapheneOS/hardened_malloc)' hardened memory allocator.
 
 This is only relevant to build the deb package for Ragnarok. There is no code divergence
 from upstream, only an extra configuration.
@@ -23,9 +23,7 @@ is added to `/etc/ld.so.preload`.
 
 The default variant used can be changed by modifying the symlink, e.g.
 
-	```
 	ln -sf /usr/lib/hardened_malloc/libhardened_malloc-strong.so /usr/lib/libhardened_malloc.so
-	```
 
 -------------
 
