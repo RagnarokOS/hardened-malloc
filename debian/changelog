@@ -1,4 +1,4 @@
-hardened-malloc (11-1) unstable; urgency=medium
+hardened-malloc (11-1) dev; urgency=medium
 
   * Initial release.
 
